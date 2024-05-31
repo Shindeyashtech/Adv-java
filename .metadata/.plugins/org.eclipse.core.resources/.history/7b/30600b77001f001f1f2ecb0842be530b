@@ -1,0 +1,24 @@
+package jdbcConnection;
+
+
+public class Connection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String url ="jdbc:mysql://localhost:3306";
+				String username ="root";
+				String pass ="root";
+				
+		 // package import 
+		//load package
+				Connection conn = DriverManager.getConnection(url,username,pass);
+				//establish connection
+		//write statement
+		//execute statement
+		//close connection
+		
+		
+	}
+
+}
