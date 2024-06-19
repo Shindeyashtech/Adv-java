@@ -7,12 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-
 <%
 request.setAttribute("req_name","seedinfo");
 out.println(request.getAttribute("req_name"));
-
 %>
-${ requestScope};
+${requestScope}
+${requestScope.req_name}
+
 </body>
 </html>
